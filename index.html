@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://akira.contix.com/companies -->
+<html class=" js no-touch svg inlinesvg svgclippaths no-ie8compat" lang="en" style=""><!-- <![endif] --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+<meta charset="utf-8">
+<!-- Set the viewport width to device width for mobile -->
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<title>Contix - Configure by Industry</title>
+
+<script src="./Contix - Configure by Industry_files/application-498be272d57908503227c789ba5d7a48.js" type="text/javascript"></script>
+
+<link href="./Contix - Configure by Industry_files/foundation.min.css" media="all" rel="stylesheet" type="text/css">
+<link href="./Contix - Configure by Industry_files/app.css" media="all" rel="stylesheet" type="text/css">
+
+<meta content="authenticity_token" name="csrf-param">
+<meta content="Fd4DtQlz5AGzaJLwc7siaWAtGF4K6vRXXcUvAchT6zw=" name="csrf-token">
+
+</head>
+<!-- Give Unique ID to Each Page -->
+<body id="body-01" style="padding-top: 54px;">
+<!-- Start Nav -->
+<header class="fixed contain-to-grid">
+<nav class="top-bar">
+<ul>
+<li class="name">
+<h1>
+<div id="contix-logo">
+<span class="icon">Contix</span>
+</div>
+</h1>
+</li>
+<li class="toggle-topbar">
+<a href="https://akira.contix.com/companies#"></a>
+</li>
+</ul>
+
+<section>
+<ul class="left">
+<li class="divider"></li>
+<li>
+<a href="https://api.contix.com/spaces" title="Spaces Configuration">Spaces</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="https://api.contix.com/ke/index" title="KE">KE</a>
+</li>
+<li class="divider"></li>
+<li>
+<a class="" href="https://akira.contix.com/alerts/review" title="Review Alerts">Review</a>
+</li>
+<li class="divider"></li>
+<li id="nav-alerts">
+<a class="" href="https://akira.contix.com/alerts" title="Alerts">Alerts</a>
+</li>
+<li class="divider"></li>
+<li>
+<a class="" href="https://akira.contix.com/viewpoints" title="Viewpoints">Viewpoints</a>
+</li>
+<li class="divider"></li>
+<li>
+<a class="" href="./Contix - Configure by Industry_files/Contix - Configure by Industry.html" title="Configuration">Setup</a>
+</li>
+</ul>
+<ul class="right">
+<li class="divider hide-for-small"></li>
+<li class="hide-for-small">
+<div data-volume="0" id="volume-container">
+<span class="icon icon-sound muted">Alert Volume</span>
+<div class="drop">
+<div class="slider">
+<div class="lit" style="height: 0%;"></div>
+<span class="handle" style="bottom: 0%;">
+</span></div>
+<span class="icon icon-sound muted">Mute</span>
+</div>
+<audio autobuffer="autobuffer" id="alert-audio" preload="auto" volume="0.0">
+<source src="/assets/alert.mp3" type="audio/mpeg">
+<source src="/assets/alert.ogg" type="audio/ogg">
+<object classid="clsid:6BF52A52-394A-11d3-B153-00C04F79FAA6" id="alert-audio-ie8" style="display: none;">
+<param name="URL" value="/assets/alert.mp3">
+<param name="uiMode" value="invisible">
+<param name="volume" value="0">
+<param name="playCount" value="1">
+</object>
+</audio>
+</div>
+</li>
+<li class="divider"></li>
+<li>
+<a href="https://akira.contix.com/users/5/edit">cota@ikayzo.com</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="https://akira.contix.com/signout" data-method="delete" rel="nofollow">Log Out</a>
+</li>
+</ul>
+</section></nav>
+</header>
+<!-- End Nav -->
+
+<div id="flash-messages">
+
+</div>
+<!-- Start First Section / Give Unique ID -->
+<div class="row" id="config">
+<div class="twelve columns">
+<div class="left">
+<h2>
+Setup
+<span class="icon icon-config">Config Icon</span>
+</h2>
+</div>
+</div>
+<!-- Secondary Nav -->
+<nav class="four columns" id="config-nav">
+<ul class="nav-secondary">
+<li class="nav-secondary-selected">
+<a href="./Contix - Configure by Industry_files/Contix - Configure by Industry.html">Companies</a>
+</li>
+</ul>
+</nav>
+
+<!-- Setup -->
+<div class="twelve columns" id="setup">
+<div class="row">
+<div class="four columns" id="industries">
+	<ul class="accordion menu">
+	<!-- config-selected is added as a class to change the color -->
+		<li class="industry_li subcategory" data-subsector-id="0" id="all_sectors_li">
+			<div class="title" title="Select">
+			All PIMCO Sectors
+			<span id="all_sectors">(1)</span>
+			</div>
+		</li>
+
+		<li class="industry_li" id="industry_1">
+			<div class="title" data-industry="1" title="Select">
+			Auto
+			<span id="status_1"></span>
+			</div>
+		</li>
+
+		<li class="industry_li" id="industry_2">
+			<div class="title" data-industry="2" title="Select">
+			Basic Materials
+			<span id="status_2"></span>
+			</div>
+		</li>
+
+		<li class="industry_li" id="industry_3">
+			<div class="title" data-industry="3" title="Select">
+			Consumer Discretionary
+			<span id="status_3"></span>
+			</div>
+		</li>
+
+		<li class="industry_li" id="industry_4">
+			<div class="title" data-industry="4" title="Select">
+			Consumer Staples
+			<span id="status_4"></span>
+			</div>
+		</li>
+
+		<li class="industry_li" id="industry_5">
+			<div class="title" data-industry="5" title="Select">
+			Energy
+			<span id="status_5"></span>
+			</div>
+		</li>
+
+		<li class="industry_li" id="industry_6">
+			<div class="title" data-industry="6" title="Select">
+			Financials
+			<span id="status_6"></span>
+			</div>
+		</li>
+
+		<li class="industry_li" id="industry_7">
+			<div class="title" data-industry="7" title="Select">
+			Health Care
+			<span id="status_7"></span>
+			</div>
+		</li>
+
+		<li class="industry_li" id="industry_8">
+			<div class="title" data-industry="8" title="Select">
+			Industrials
+			<span id="status_8"></span>
+			</div>
+		</li>
+
+		<li class="industry_li" id="industry_9">
+			<div class="title" data-industry="9" title="Select">
+			Info Tech
+			<span id="status_9"></span>
+			</div>
+		</li>
+
+		<li class="industry_li" id="industry_10">
+			<div class="title" data-industry="10" title="Select">
+			Materials
+			<span id="status_10"></span>
+			</div>
+		</li>
+
+		<li class="industry_li" id="industry_11">
+			<div class="title" data-industry="11" title="Select">
+			Metals &amp; Mining
+			<span id="status_11"></span>
+			</div>
+		</li>
+
+		<li class="industry_li" id="industry_12">
+			<div class="title" data-industry="12" title="Select">
+			REITs
+			<span id="status_12"></span>
+			</div>
+		</li>
+
+
+		<li class="industry_li" id="industry_13"> <!-- Add class of active to highlight -->
+		<div class="title" data-industry="13" title="Select">
+		Telecom
+		<span id="status_13">(1)</span>
+		</div>
+
+		<div class="content" style="overflow: hidden; display: none;"> <!-- Change to block to show -->
+			<ul class="sub-categories">
+				<li class="subcategory" data-subsector-id="121" id="subsector_121">
+				<div class="title">
+				Apparel
+				<span id="company_count_121"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="119" id="subsector_119">
+				<div class="title">
+				Beverages (Production/Distribution)
+				<span id="company_count_119"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="168" id="subsector_168">
+				<div class="title">
+				Consumer Electronics/Appliances
+				<span id="company_count_168"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="174" id="subsector_174">
+				<div class="title">
+				Consumer Specialties
+				<span id="company_count_174"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="104" id="subsector_104">
+				<div class="title">
+				Electronic Components
+				<span id="company_count_104"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="197" id="subsector_197">
+				<div class="title">
+				Environmental Services
+				<span id="company_count_197"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="55" id="subsector_55">
+				<div class="title">
+				Farming/Seeds/Milling
+				<span id="company_count_55"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="159" id="subsector_159">
+				<div class="title">
+				Food Chains
+				<span id="company_count_159"></span>
+				</div>
+				</li>
+				<li class="subcategory selected config-selected" data-subsector-id="67" id="subsector_67">
+				<div class="title">
+				Food Distributors
+				<span id="company_count_67">(1)</span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="200" id="subsector_200">
+				<div class="title">
+				Homebuilding
+				<span id="company_count_200"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="184" id="subsector_184">
+				<div class="title">
+				Meat/Poultry/Fish
+				<span id="company_count_184"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="181" id="subsector_181">
+				<div class="title">
+				Motor Vehicles
+				<span id="company_count_181"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="112" id="subsector_112">
+				<div class="title">
+				Package Goods/Cosmetics
+				<span id="company_count_112"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="99" id="subsector_99">
+				<div class="title">
+				Packaged Foods
+				<span id="company_count_99"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="95" id="subsector_95">
+				<div class="title">
+				Plastic Products
+				<span id="company_count_95"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="127" id="subsector_127">
+				<div class="title">
+				Recreational Products/Toys
+				<span id="company_count_127"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="134" id="subsector_134">
+				<div class="title">
+				Shoe Manufacturing
+				<span id="company_count_134"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="132" id="subsector_132">
+				<div class="title">
+				Specialty Foods
+				<span id="company_count_132"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="90" id="subsector_90">
+				<div class="title">
+				Telecommunications Equipment
+				<span id="company_count_90"></span>
+				</div>
+				</li>
+				<li class="subcategory" data-subsector-id="204" id="subsector_204">
+				<div class="title">
+				Textiles
+				<span id="company_count_204"></span>
+				</div>
+				</li>
+			</ul>
+		</div>
+		</li>
+
+		<li class="industry_li" id="industry_14">
+			<div class="title" data-industry="14" title="Select">
+			U.S. States
+			<span id="status_14"></span>
+			</div>
+		</li>
+
+		<li class="industry_li" id="industry_15">
+			<div class="title" data-industry="15" title="Select">
+			Utilities
+			<span id="status_15"></span>
+			</div>
+		</li>
+
+	</ul>
+</div>
+<!-- Add a Company -->
+<div class="eight columns" id="companies"><header id="input-companies">
+<div class="row collapse" id="search-companies">
+<div class="five mobile-three columns end">
+<form accept-charset="UTF-8" action="./Contix - Configure by Industry_files/Contix - Configure by Industry.html" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="Fd4DtQlz5AGzaJLwc7siaWAtGF4K6vRXXcUvAchT6zw="></div><input class="noEnterSubmit" data-append-to="search-companies-list" data-autocomplete="/companies/autocomplete_ticker_definition_company_name" id="ticker_definitions_company_name" name="ticker_definitions[company_name]" placeholder="Add A Company" size="30" type="text" value="">
+<div id="search-companies-list"></div>
+</form>
+
+</div>
+<div class="columns" id="toggle-views">
+<a href="https://akira.contix.com/companies?list_view=true&subsector_id=67" class="icon icon-table" data-remote="true" data-replace="#companies"></a>
+<a href="https://akira.contix.com/companies?list_view=false&subsector_id=67" class="icon icon-thumb-selected" data-remote="true" data-replace="#companies"></a>
+<!-- %a.icon.icon-thumb{:href => "#", :title => "Thumbnail View"} -->
+<!-- %a.icon.icon-table{:href => "#", :title => "Table View"} -->
+<!-- %a.icon.icon-thumb-selected{:href => "#", :title => "Thumbnail View"} -->
+<!-- %a.icon.icon-table-selected{:href => "#", :title => "Table View"} -->
+</div>
+</div>
+</header>
+
+<div class="row sub-cat-companies">
+<div class="twelve columns">
+<h5 class="left">Telecom</h5>
+<div class="right">
+<p>
+Select:
+<a href="https://akira.contix.com/user_subsectors?subsector_id=67" data-method="post" data-remote="true" rel="nofollow">All</a>
+<span>|</span>
+<a href="https://akira.contix.com/user_subsectors/67" data-method="delete" data-remote="true" rel="nofollow">None</a>
+</p>
+</div>
+</div>
+<ol class="companies">
+<li class="" data-ticker-id="179" data-user-ticker-definition-id="0" id="ticker_179">
+
+	<ul>
+		<li><span><strong>T</strong></span><span><strong>AT&amp;T</strong></span></li>
+		<li><span>PIMCO Light:</span><span>Yellow</span></li>
+		<li><span>PIMCO Rating:</span><span>NA / BBB+</span></li>
+		<li><span>Agency Ratings (M/S/F):</span><span>A3 / A- / A</span></li>
+		<li><span>PIMCO Recommendation:</span><span>NA</span></li>
+	</ul>
+
+</li>
+<li class="" data-ticker-id="1051" data-user-ticker-definition-id="0" id="ticker_1051">
+
+	<ul>
+		<li><span><strong>T</strong></span><span><strong>AT&amp;T</strong></span></li>
+		<li><span>PIMCO Light:</span><span>Yellow</span></li>
+		<li><span>PIMCO Rating:</span><span>NA / BBB+</span></li>
+		<li><span>Agency Ratings (M/S/F):</span><span>A3 / A- / A</span></li>
+		<li><span>PIMCO Recommendation:</span><span>NA</span></li>
+	</ul>
+
+</li>
+<li class="" data-ticker-id="1112" data-user-ticker-definition-id="0" id="ticker_1112">
+
+	<ul>
+		<li><span><strong>T</strong></span><span><strong>AT&amp;T</strong></span></li>
+		<li><span>PIMCO Light:</span><span>Yellow</span></li>
+		<li><span>PIMCO Rating:</span><span>NA / BBB+</span></li>
+		<li><span>Agency Ratings (M/S/F):</span><span>A3 / A- / A</span></li>
+		<li><span>PIMCO Recommendation:</span><span>NA</span></li>
+	</ul>
+
+</li>
+<li class="" data-ticker-id="2856" data-user-ticker-definition-id="0" id="ticker_2856">
+
+	<ul>
+		<li><span><strong>T</strong></span><span><strong>AT&amp;T</strong></span></li>
+		<li><span>PIMCO Light:</span><span>Yellow</span></li>
+		<li><span>PIMCO Rating:</span><span>NA / BBB+</span></li>
+		<li><span>Agency Ratings (M/S/F):</span><span>A3 / A- / A</span></li>
+		<li><span>PIMCO Recommendation:</span><span>NA</span></li>
+	</ul>
+
+</li>
+<li class="" data-ticker-id="3393" data-user-ticker-definition-id="0" id="ticker_3393">
+
+	<ul>
+		<li><span><strong>T</strong></span><span><strong>AT&amp;T</strong></span></li>
+		<li><span>PIMCO Light:</span><span>Yellow</span></li>
+		<li><span>PIMCO Rating:</span><span>NA / BBB+</span></li>
+		<li><span>Agency Ratings (M/S/F):</span><span>A3 / A- / A</span></li>
+		<li><span>PIMCO Recommendation:</span><span>NA</span></li>
+	</ul>
+
+</li>
+<li class="" data-ticker-id="3957" data-user-ticker-definition-id="0" id="ticker_3957">
+
+	<ul>
+		<li><span><strong>T</strong></span><span><strong>AT&amp;T</strong></span></li>
+		<li><span>PIMCO Light:</span><span>Yellow</span></li>
+		<li><span>PIMCO Rating:</span><span>NA / BBB+</span></li>
+		<li><span>Agency Ratings (M/S/F):</span><span>A3 / A- / A</span></li>
+		<li><span>PIMCO Recommendation:</span><span>NA</span></li>
+	</ul>
+
+</li>
+<li class="selected" data-ticker-id="4116" data-user-ticker-definition-id="0" id="ticker_4116">
+
+	<ul>
+		<li><span><strong>T</strong></span><span><strong>AT&amp;T</strong></span></li>
+		<li><span>PIMCO Light:</span><span>Yellow</span></li>
+		<li><span>PIMCO Rating:</span><span>NA / BBB+</span></li>
+		<li><span>Agency Ratings (M/S/F):</span><span>A3 / A- / A</span></li>
+		<li><span>PIMCO Recommendation:</span><span>NA</span></li>
+	</ul>
+
+</li>
+<li class="" data-ticker-id="4225" data-user-ticker-definition-id="0" id="ticker_4225">
+
+	<ul>
+		<li><span><strong>T</strong></span><span><strong>AT&amp;T</strong></span></li>
+		<li><span>PIMCO Light:</span><span>Yellow</span></li>
+		<li><span>PIMCO Rating:</span><span>NA / BBB+</span></li>
+		<li><span>Agency Ratings (M/S/F):</span><span>A3 / A- / A</span></li>
+		<li><span>PIMCO Recommendation:</span><span>NA</span></li>
+	</ul>
+
+</li>
+<li class="" data-ticker-id="4416" data-user-ticker-definition-id="0" id="ticker_4416">
+
+	<ul>
+		<li><span><strong>T</strong></span><span><strong>AT&amp;T</strong></span></li>
+		<li><span>PIMCO Light:</span><span>Yellow</span></li>
+		<li><span>PIMCO Rating:</span><span>NA / BBB+</span></li>
+		<li><span>Agency Ratings (M/S/F):</span><span>A3 / A- / A</span></li>
+		<li><span>PIMCO Recommendation:</span><span>NA</span></li>
+	</ul>
+
+</li>
+<li class="" data-ticker-id="5782" data-user-ticker-definition-id="0" id="ticker_5782">
+
+	<ul>
+		<li><span><strong>T</strong></span><span><strong>AT&amp;T</strong></span></li>
+		<li><span>PIMCO Light:</span><span>Yellow</span></li>
+		<li><span>PIMCO Rating:</span><span>NA / BBB+</span></li>
+		<li><span>Agency Ratings (M/S/F):</span><span>A3 / A- / A</span></li>
+		<li><span>PIMCO Recommendation:</span><span>NA</span></li>
+	</ul>
+
+</li>
+<li class="" data-ticker-id="6880" data-user-ticker-definition-id="0" id="ticker_6880">
+
+	<ul>
+		<li><span><strong>T</strong></span><span><strong>AT&amp;T</strong></span></li>
+		<li><span>PIMCO Light:</span><span>Yellow</span></li>
+		<li><span>PIMCO Rating:</span><span>NA / BBB+</span></li>
+		<li><span>Agency Ratings (M/S/F):</span><span>A3 / A- / A</span></li>
+		<li><span>PIMCO Recommendation:</span><span>NA</span></li>
+	</ul>
+
+</li>
+<li class="" data-ticker-id="7012" data-user-ticker-definition-id="0" id="ticker_7012">
+
+	<ul>
+		<li><span><strong>T</strong></span><span><strong>AT&amp;T</strong></span></li>
+		<li><span>PIMCO Light:</span><span>Yellow</span></li>
+		<li><span>PIMCO Rating:</span><span>NA / BBB+</span></li>
+		<li><span>Agency Ratings (M/S/F):</span><span>A3 / A- / A</span></li>
+		<li><span>PIMCO Recommendation:</span><span>NA</span></li>
+	</ul>
+
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- End First Section -->
+
+<!-- Footer -->
+<footer class="row" id="footer">
+<div class="twelve columns">
+<div class="left">
+<p class="icon contix-name">Contix</p>
+</div>
+<div class="right">
+<p>
+<a class="icon icon-contact" href="mailto:support@contix.com?Subject=Contix%20Support" target="_top" title="Email Contix">Contact Contix Today</a>
+</p>
+</div>
+</div>
+</footer>
+<script type="text/javascript">PrivatePub.sign({"server":"https://api.contix.com:4443/faye","timestamp":1383947029883,"channel":"/alerts/all","signature":"5e5e31c26738cc7d2e908a4bfe2be039121d29e4"});</script>
+<script>
+  window.usersCompanies = [];
+  PrivatePub.subscribe("/alerts/all", function(data, channel) { insert_alert(data); });
+</script>
+<script type="text/javascript">if (typeof NREUMQ !== "undefined") { if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-3.newrelic.com","f3cbb6a262","1637651","elcMRUJXCg5cFx9RXlRIA19ZXRVNUAtUV0k=",0,985,new Date().getTime(),"","","","",""]);}</script>
+
+<script type="text/javascript" src="./Contix - Configure by Industry_files/nr-100.js"></script><script type="text/javascript" src="./Contix - Configure by Industry_files/f3cbb6a262"></script></body><script type="text/javascript" src="./Contix - Configure by Industry_files/faye.js"></script></html>
