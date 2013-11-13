@@ -337,8 +337,8 @@ box-shadow: 1px 0 0 rgba(65,63,64,1.0);
 
 /* Active Colors */
 /* Green */
-.sub-cat-companies .selected  { background: #8bb621; color: #fff; }
-.sub-cat-companies .selected:nth-child(even) { background: #9cc23e;}
+.sub-cat-companies ol > .selected  { background: #8bb621; color: #fff; }
+.sub-cat-companies ol > .selected:nth-child(even) { background: #9cc23e;}
 
 .sub-cat-companies ol > li:hover, .sub-cat-companies .selected:hover	{ background: #7ca712; cursor:pointer;}
 .sub-cat-companies ol > li:active,.sub-cat-companies .selected:active{ background: #668f00;}
