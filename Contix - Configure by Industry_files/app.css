@@ -340,8 +340,8 @@ box-shadow: 1px 0 0 rgba(65,63,64,1.0);
 .sub-cat-companies .selected  { background: #8bb621; color: #fff; }
 .sub-cat-companies .selected:nth-child(even) { background: #9cc23e;}
 
-.sub-cat-companies li:hover, .sub-cat-companies .selected:hover	{ background: #7ca712; cursor:pointer;}
-.sub-cat-companies li:active,.sub-cat-companies .selected:active{ background: #668f00;}
+.sub-cat-companies ol > li:hover, .sub-cat-companies .selected:hover	{ background: #7ca712; cursor:pointer;}
+.sub-cat-companies ol > li:active,.sub-cat-companies .selected:active{ background: #668f00;}
 
 /* Red */
 #setup .accordion .active > .title				{ background: #f15430;font-weight: normal;color: #fff;  }
@@ -374,12 +374,14 @@ box-shadow:         inset 0 8px 10px -5px rgba(0,0,0,0.4);}
 
 /* Thumbnail View */
 .sub-cat-companies ol 			 { list-style-type: none; background:transparent; padding: 0px; margin: 0px;}
-.sub-cat-companies ol > li		{ padding: 10px; line-height: 16px; float: left; width: 25%; }
+.sub-cat-companies ol > li		{ padding: 10px; line-height: 16px; float: left; width: 25%; min-height:160px; }
+.sub-cat-companies ol .light-green  { background: #eafecb;}
+.sub-cat-companies ol .light-yellow { background: #fdfecb;}
+
 .sub-cat-companies ul                       { margin: 0; padding: 0;}
-.sub-cat-companies ul li                    { clear: both; font-size: 12px; }
+.sub-cat-companies ul li                    { font-size: 12px; }
 .sub-cat-companies ul li strong             { font-size: 1.2em;}
-.sub-cat-companies ul li span               { width: 40%; float: left;}
-.sub-cat-companies ul li span:first-child		{ width: 60%; }
+
 /* List - Table View */
 
 /* Testing Idea of alpha-sorting */
