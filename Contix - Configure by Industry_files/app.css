@@ -375,7 +375,7 @@ box-shadow:         inset 0 8px 10px -5px rgba(0,0,0,0.4);}
 /* Thumbnail View */
 .sub-cat-companies ol 			 { list-style-type: none; background:transparent; padding: 0px; margin: 0px;}
 .sub-cat-companies ol > li		{ padding: 10px; line-height: 16px; float: left; width: 25%; min-height:160px; }
-.sub-cat-companies ol .light-green  { background: #eafecb;}
+.sub-cat-companies ol .light-green  { background: #e4f2d2;}
 .sub-cat-companies ol .light-yellow { background: #fdfecb;}
 
 .sub-cat-companies ul                       { margin: 0; padding: 0;}
